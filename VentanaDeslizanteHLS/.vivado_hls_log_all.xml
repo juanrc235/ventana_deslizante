@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx." projectName="VentanaDeslizanteHLS" solutionName="solution1" date="2020-11-28T11:24:10.141+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Skipped source file 'castillo.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx." projectName="VentanaDeslizanteHLS" solutionName="solution1" date="2020-11-28T11:24:10.134+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Skipped source file 'image.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx." projectName="VentanaDeslizanteHLS" solutionName="solution1" date="2020-11-28T11:24:10.128+0100" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

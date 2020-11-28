@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="car.bmp" path="C:\Users\estra\Desktop\proyectos_vivado\filtro_imagen\car.bmp"/>
+    <originFiles name="img_filter.h" path="C:\Users\estra\Desktop\proyectos_vivado\filtro_imagen\img_filter.h"/>
+    <originFiles name="top.cpp" path="C:\Users\estra\Desktop\proyectos_vivado\filtro_imagen\top.cpp"/>
+    <originFiles name="car.bmp" path="C:\Users\estra\Desktop\proyectos_vivado\filtro_imagen\car.bmp"/>
+    <originFiles name="img_filter.h" path="C:\Users\estra\Desktop\proyectos_vivado\filtro_imagen\img_filter.h"/>
+    <originFiles name="top.cpp" path="C:\Users\estra\Desktop\proyectos_vivado\filtro_imagen\top.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.cpp" path="C:\Users\estra\Desktop\proyectos_vivado\filtro_imagen\testbench.cpp"/>
+    <originFiles name="testbench.cpp" path="C:\Users\estra\Desktop\proyectos_vivado\filtro_imagen\testbench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

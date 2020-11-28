@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"img_filter": {
+			"proto_instances": {
+			}
+		}
+	}
+}
