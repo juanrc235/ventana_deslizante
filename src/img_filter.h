@@ -10,9 +10,7 @@
 #define COLS 640
 #define KERNEL_DIM 3
 
-const char kernelX[3][3] = { {-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1} };
-const char kernelY[3][3] = { {-1, -2, -1}, {0, 0, 0}, {+1, +2, +1} };
-
+const ap_int<4> kernel[3][3] = { {1, 0, -1}, {0, 0, 0}, {-1, 0, 1} };
 
 typedef ap_axiu<24,1,1,1> AXI_VAL;
 typedef hls::stream<AXI_VAL> AXI_STREAM;
