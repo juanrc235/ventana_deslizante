@@ -1,3 +1,13 @@
-# Sobel on FPGA
+# Edge detection on FPGA
 
-Sobel image filter implementation based on sliding window.
+Edge detection on FPGA using a sliding window implementation to improve the use of resources.
+
+- The kernel used is: { {1, 0, -1}, {0, 0, 0}, {-1, 0, 1} }
+
+## Original 
+![alt text](https://github.com/juanrc235/ventana_deslizante/blob/main/car.bmp?raw=true)
+
+## Result 
+![alt text](https://github.com/juanrc235/ventana_deslizante/blob/main/car_out.bmp?raw=true)
+
+
