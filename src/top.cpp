@@ -29,7 +29,7 @@ void img_filter_hw(AXI_STREAM& in, AXI_STREAM& out) {
 	unsigned short row,col;
 
 	// rellenamos con 0 las primeras l�neas
-	for (col = 0; col < COLS + KERNEL_DIM; col++) {
+	for (col = 0; col < COLS; col++) {
 		buff1.write( (pixel_gray_t ) 0);
 		buff2.write( (pixel_gray_t ) 0);
 	}
