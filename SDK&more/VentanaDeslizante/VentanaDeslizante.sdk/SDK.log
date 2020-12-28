@@ -1,0 +1,6 @@
+12:28:02 INFO  : Registering command handlers for SDK TCF services
+12:28:04 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\estra\Desktop\proyectos_vivado\VentanaDeslizante\VentanaDeslizante.sdk\temp_xsdb_launch_script.tcl
+12:28:08 INFO  : XSCT server has started successfully.
+12:28:14 INFO  : Successfully done setting XSCT server connection channel  
+12:28:14 INFO  : Successfully done setting SDK workspace  
+12:28:14 INFO  : Processing command line option -hwspec C:/Users/estra/Desktop/proyectos_vivado/VentanaDeslizante/VentanaDeslizante.sdk/design_1_wrapper.hdf.

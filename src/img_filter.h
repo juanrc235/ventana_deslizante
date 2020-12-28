@@ -19,7 +19,6 @@ typedef ap_uint<8> pixel_gray_t;
 
 typedef ap_uint<24> pixel_rgb_t;
 
-
 #define R(p) (p(23,16))
 #define G(p) (p(15,8))
 #define B(p) (p(7,0))

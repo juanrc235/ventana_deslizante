@@ -8,9 +8,11 @@ using namespace std;
 
 Mat img_filter_sw(Mat img) {
 
+	Mat dst_g(ROWS, COLS, CV_8UC3);
 	Mat dst(ROWS, COLS, CV_8UC3);
 	Mat ckernel = (Mat_<char>(3, 3) << 1, 0, -1, 0, 0, 0, -1, 0, 1);
-	filter2D(img, dst, -1, ckernel);
+	cvtColor(img, dst_g, COLOR_BGR2GRAY, 0); // a escala de grises
+	filter2D(dst_g, dst, -1, ckernel); // aplicar el kernel
 
 	return dst;
 }
@@ -38,7 +40,8 @@ int main (int argc, char** argv) {
 
 	imwrite(OUTPUT_IMAGE, dst_IMG_hw);
 
-	unsigned short row,col, err = 0;
+
+	unsigned short row,col; int err = 0;
 	for (row = 0; row < ROWS; row++) {
 		for (col = 0; col < COLS; col++) {
 			if ( dst_IMG_sw.at<Vec3b>(row, col) != dst_IMG_hw.at<Vec3b>(row, col) ) {
@@ -52,6 +55,7 @@ int main (int argc, char** argv) {
 	} else {
 		printf("Test failed! total pixel errors: %d\r\n", err);
 	}
+
 
 	//imshow("Original", src_IMG);
 	imshow("Resultado SW", dst_IMG_sw);

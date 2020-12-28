@@ -1,0 +1,10 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../filtro_imagen/top.cpp in debug mode
+   Generating csim.exe
+WARNING: Hls::stream 'hls::stream<ap_uint<8> >.2' contains leftover data, which may result in RTL simulation hanging.
+WARNING: Hls::stream 'hls::stream<ap_uint<8> >.1' contains leftover data, which may result in RTL simulation hanging.
+Test failed! total pixel errors: 287638
+
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,23 +1,8 @@
 #include "img_filter.h"
 
-pixel_rgb_t conv(pixel_gray_t img[KERNEL_DIM][KERNEL_DIM]) {
-
-	ap_int<32> tmp = 0, edge_w;
-
-	for  (char i = 0; i < KERNEL_DIM; i++) {
-		for (char j = 0; j < KERNEL_DIM; j++) {
-			tmp += img[i][j] * kernel[KERNEL_DIM - i][KERNEL_DIM - j];
-		}
-	}
-
-	if ( tmp < 0 ) tmp = 0b0;
-	if ( tmp > 255 ) tmp = 0b10000000;
-
-	return ( tmp(7, 0), tmp(7, 0), tmp(7, 0) );
-}
-
 void img_filter_hw(AXI_STREAM& in, AXI_STREAM& out) {
 
+	#pragma HLS INTERFACE s_axilite port=return
 	#pragma HLS INTERFACE axis port=in
 	#pragma HLS INTERFACE axis port=out
 
@@ -28,18 +13,17 @@ void img_filter_hw(AXI_STREAM& in, AXI_STREAM& out) {
 
 	unsigned short row,col;
 
-	// rellenamos con 0 las primeras l�neas
-	for (col = 0; col < COLS; col++) {
+	L3:for (col = 0; col < COLS - KERNEL_DIM; col++) {
 		buff1.write( (pixel_gray_t ) 0);
 		buff2.write( (pixel_gray_t ) 0);
 	}
+	buff2.write( (pixel_gray_t ) 0);
 
-	//RGB --> gray_scale
-	for (row = 0; row < ROWS; row++) {
-		for (col = 0; col < COLS; col++) {
-
-			pixel_rgb_t pixel_color;
-			AXI_VAL e;
+	pixel_rgb_t pixel_color;
+	AXI_VAL e;
+	ap_int<32> tmp = 0;
+	L1:for (row = 0; row < ROWS; row++) {
+		L2:for (col = 0; col < COLS; col++) {
 
 			in >> e;
 			pixel_color = e.data;
@@ -58,18 +42,25 @@ void img_filter_hw(AXI_STREAM& in, AXI_STREAM& out) {
 			swin[2][1] = swin[2][2];
 			swin[2][2] = (R(pixel_color) + G(pixel_color) + B(pixel_color))/3;
 
-			out << push_stream( conv(swin), (row == (ROWS-1) && col == (COLS-1)));
+			tmp = swin[0][0] * kernel[0][0] +
+				  swin[0][2] * kernel[0][2] +
+				  swin[2][0] * kernel[2][0] +
+				  swin[2][2] * kernel[2][2];
+
+			if ( tmp < 0 ) tmp = 0;
+			if ( tmp > 255 ) tmp = 255;
+
+			pixel_color = ( tmp(7, 0), tmp(7, 0), tmp(7, 0) );
+
+			out << push_stream(pixel_color , (row == (ROWS-1) && col == (COLS-1)));
 		}
 	}
-
 }
 
 AXI_VAL push_stream(pixel_rgb_t const &v, bool last = false) {
 #pragma HLS INLINE
 	AXI_VAL e;
-
 	e.data = v;
-
 	e.strb = -1;
 	e.keep = 15; //e.strb;
 	e.user = 1;

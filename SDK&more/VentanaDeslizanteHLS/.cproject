@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.513216713">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.513216713" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="a.exe" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.513216713" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+                    					
+                    <folderInfo id="cdt.managedbuild.config.gnu.exe.debug.513216713." name="/" resourcePath="">
+                        						
+                        <toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.435721070" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
+                            							
+                            <targetPlatform binaryParser="org.eclipse.cdt.core.PE;org.eclipse.cdt.core.GNU_ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.933312750" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+                            							
+                            <builder buildPath="${workspace_loc:/VentanaDeslizanteHLS}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1233986984" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.base.2137564173" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.174320937" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
+                                								
+                                <option id="gnu.cpp.compiler.exe.debug.option.optimization.level.310690748" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.exe.debug.option.debugging.level.363178589" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.include.paths.2059957120" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/etc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/auto_cc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/ap_sysc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.preprocessor.def.1518133834" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="AESL_TB"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__llvm__"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__llvm__"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1572777424" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.785715338" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.843672042" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.exe.debug.option.debugging.level.1657816433" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.option.include.paths.1392683329" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/etc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/auto_cc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/ap_sysc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.compiler.option.preprocessor.def.symbols.1580915449" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="AESL_TB"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__llvm__"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__llvm__"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.619137204" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.781210778" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
+                                								
+                                <option id="gnu.c.link.option.paths.1594099251" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/lib"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.link.option.libs.1047778551" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+                                								
+                                <option id="gnu.c.link.option.ldflags.38606134" name="Linker flags" superClass="gnu.c.link.option.ldflags"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.471235643" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
+                                								
+                                <option id="gnu.cpp.link.option.paths.1751281778" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/lib"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.1572407365" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
+                                								
+                                <option id="gnu.cpp.link.option.flags.1681815724" name="Linker flags" superClass="gnu.cpp.link.option.flags"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1374054330" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1399198341" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.1279429751" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.513216713.78623501" name="testbench.cpp" rcbsApplicability="disable" resourcePath="testbench/testbench.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.174320937.572273938">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.174320937.572273938" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.174320937">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.456616744" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option id="gnu.cpp.compiler.option.include.paths.346012105" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Users/estra/Desktop/proyectos_vivado"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.322024532" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.61061537" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="cdt.managedbuild.config.gnu.exe.release.791306868">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.791306868" moduleId="org.eclipse.cdt.core.settings" name="Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="a.exe" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.791306868" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+                    					
+                    <folderInfo id="cdt.managedbuild.config.gnu.exe.release.791306868." name="/" resourcePath="">
+                        						
+                        <toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.381700176" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+                            							
+                            <targetPlatform binaryParser="org.eclipse.cdt.core.PE;org.eclipse.cdt.core.GNU_ELF" id="cdt.managedbuild.target.gnu.platform.exe.release.1852885349" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+                            							
+                            <builder buildPath="${workspace_loc:/VentanaDeslizanteHLS}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.1628255248" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.base.1741131456" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1026720165" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+                                								
+                                <option id="gnu.cpp.compiler.exe.release.option.optimization.level.1274078991" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.exe.release.option.debugging.level.498052803" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.include.paths.1257118963" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/etc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/auto_cc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/ap_sysc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.174462511" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.135245588" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.875725996" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.exe.release.option.debugging.level.1941128904" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.option.include.paths.689401405" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/etc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/auto_cc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/ap_sysc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.390217020" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.633252347" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
+                                								
+                                <option id="gnu.c.link.option.paths.1023328153" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/lib"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.link.option.libs.2108375036" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+                                								
+                                <option id="gnu.c.link.option.ldflags.961201829" name="Linker flags" superClass="gnu.c.link.option.ldflags"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.943589717" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+                                								
+                                <option id="gnu.cpp.link.option.paths.1852625135" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/lib"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.795596227" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
+                                								
+                                <option id="gnu.cpp.link.option.flags.1753464295" name="Linker flags" superClass="gnu.cpp.link.option.flags"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.2045721706" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.1929679286" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.362040334" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.791306868.1803816532" name="testbench.cpp" rcbsApplicability="disable" resourcePath="testbench/testbench.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1026720165.1126342547">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1026720165.1126342547" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1026720165">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1727364571" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option id="gnu.cpp.compiler.option.include.paths.661834056" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Users/estra/Desktop/proyectos_vivado"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/win64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vivado/2018.3/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1350828856" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1905458048" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="VentanaDeslizanteHLS.cdt.managedbuild.target.gnu.exe.101505379" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.513216713;cdt.managedbuild.config.gnu.exe.debug.513216713.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.785715338;cdt.managedbuild.tool.gnu.c.compiler.input.619137204">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.791306868;cdt.managedbuild.config.gnu.exe.release.791306868.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.135245588;cdt.managedbuild.tool.gnu.c.compiler.input.390217020">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.791306868;cdt.managedbuild.config.gnu.exe.release.791306868.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1026720165;cdt.managedbuild.tool.gnu.cpp.compiler.input.174462511">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.513216713;cdt.managedbuild.config.gnu.exe.debug.513216713.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.174320937;cdt.managedbuild.tool.gnu.cpp.compiler.input.1572777424">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    
+</cproject>

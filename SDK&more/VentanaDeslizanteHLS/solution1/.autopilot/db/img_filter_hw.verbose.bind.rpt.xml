@@ -1,0 +1,48 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'img_filter_hw'" level="0">
+<item name = "Date">Mon Dec 28 11:16:11 2020
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">VentanaDeslizanteHLS</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu3eg-sbva484-1-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 6.304, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">615999, 615999, 615999, 615999, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- L3">637, 637, 1, -, -, 637, no</column>
+<column name="- L1">615360, 615360, 1282, -, -, 480, no</column>
+<column name=" + L2">1280, 1280, 2, -, -, 640, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>
