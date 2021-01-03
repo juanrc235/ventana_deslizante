@@ -1,4 +1,4 @@
-13:12:13 **** Build of project standalone_bsp_0 ****
+11:46:49 **** Auto Build of project standalone_bsp_0 ****
 make -k all 
 "Running Make include in psu_cortexa53_0/libsrc/axidma_v9_8/src"
 make -C psu_cortexa53_0/libsrc/axidma_v9_8/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
@@ -143,5 +143,5 @@ make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s libs  "SHELL=CMD" "COMPILER=aarc
 "Compiling zdma"
 'Finished building libraries'
 
-13:12:45 Build Finished (took 32s.256ms)
+11:47:18 Build Finished (took 29s.863ms)
 

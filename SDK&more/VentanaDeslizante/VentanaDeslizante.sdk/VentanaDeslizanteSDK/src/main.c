@@ -46,16 +46,185 @@
  */
 
 #include <stdio.h>
+#include <unistd.h>
 #include "platform.h"
 #include "xil_printf.h"
+#include "xparameters.h"
+#include "xtmrctr.h"
+#include "xaxidma.h"
+#include "ff.h"
 
+#include "ximg_filter_hw.h"
+#include "lib_ximg_filter_hw.h"
+
+int init_dma();
+u32 mount_filesystem();
+u32 unmount_filesystem();
+u32 read_img();
+u32 write_img();
+
+// TIMER Instance
+XTmrCtr timer_dev;
+// AXI DMA Instance
+XAxiDma AxiDma;
+
+static FATFS fat_fs;
+u8 data_in[BYTES];
+u8 data_out[BYTES];
 
 int main() {
-
     init_platform();
+    int status;
+	unsigned int dma_size = BYTES * sizeof(u8);
+	unsigned int init_time, curr_time, calibration;
 
-    print("Hello World\n\r");
+	print("\n --------- INIT ---------------\n");
+
+    /***** INIT DMA *****/
+    status = init_dma();
+	if(status != XST_SUCCESS) {
+		print("\rError: DMA init failed\n");
+		return XST_FAILURE;
+	}
+	print("\nDMA Init done\n");
+
+	/***** INIT AXI TIMER *****/
+	status = XTmrCtr_Initialize(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+	if(status != XST_SUCCESS) {
+		print("Error: timer setup failed\n");
+		return XST_FAILURE;
+	}
+	XTmrCtr_SetOptions(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID, XTC_ENABLE_ALL_OPTION);
+	print("AXI TIMER Init done\n");
+
+	// Calibrate HW timer
+	XTmrCtr_Reset(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+	init_time = XTmrCtr_GetValue(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+	curr_time = XTmrCtr_GetValue(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+	calibration = curr_time - init_time;
+
+	read_img();
+
+	status = Start_HW_Accelerator();
+
+	status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+	xil_printf("Run_HW_Accelerator status: %d \n", status);
+
+	write_img();
+
+	print("\n --------- END ---------------\n");
 
     cleanup_platform();
     return 0;
 }
+
+int init_dma(){
+
+	XAxiDma_Config *CfgPtr;
+	int status;
+
+	CfgPtr = XAxiDma_LookupConfig( (XPAR_AXI_DMA_0_DEVICE_ID) );
+	if(!CfgPtr){
+		print("Error looking for AXI DMA config\n\r");
+		return XST_FAILURE;
+	}
+
+
+	status = XAxiDma_CfgInitialize(&AxiDma,CfgPtr);
+
+	if(status != XST_SUCCESS){
+		print("Error initializing DMA\n\r");
+		return XST_FAILURE;
+	}
+
+	//check for scatter gather mode
+	if(XAxiDma_HasSg(&AxiDma)){
+		print("Error DMA configured in SG mode\n\r");
+		return XST_FAILURE;
+	}
+
+	/* Disable interrupts, we use polling mode */
+	XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+	XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DMA_TO_DEVICE);
+
+	// Reset DMA
+	XAxiDma_Reset(&AxiDma);
+
+	while (!XAxiDma_ResetIsDone(&AxiDma));
+
+	return XST_SUCCESS;
+}
+
+u32 mount_filesystem() {
+	TCHAR *Path = "0:/";
+	FRESULT res;
+	res = f_mount(&fat_fs, Path, 1);
+
+	if (res != FR_OK) {
+		xil_printf("mount failed %d\n\r",res);
+		return XST_FAILURE;
+	}
+	return XST_SUCCESS;
+}
+
+u32 umount_filesystem() {
+	TCHAR *Path = "0:/";
+	FRESULT res;
+	res = f_mount(NULL, Path, 0);
+
+	if (res != FR_OK) {
+		xil_printf("umount failed %d\n\r",res);
+		return XST_FAILURE;
+	}
+	return XST_SUCCESS;
+}
+
+u32 read_img() {
+
+	FIL fp;
+	u32 bytes_read = 0;
+
+	if (mount_filesystem() == XST_FAILURE) {
+		return XST_FAILURE;
+	}
+
+
+	FRESULT res = f_open(&fp, "car.bmp", FA_READ);
+
+	if (res != FR_OK) {
+		xil_printf("[READ] could not open the file %d\n\r",res);
+		return XST_FAILURE;
+	}
+
+
+	f_read(&fp, data_in, BYTES, &bytes_read);
+	f_close(&fp);
+	printf("Bytes Read: %d\n", bytes_read);
+
+
+	return XST_SUCCESS;
+}
+
+u32 write_img () {
+
+	FIL fp;
+	u32 bytes_write = 0;
+
+	FRESULT res = f_open(&fp, "carsobel1.bmp", FA_WRITE | FA_CREATE_ALWAYS);
+
+	if (res != FR_OK) {
+		xil_printf("[WRITE] could not open the file %d\n\r", res);
+		return XST_FAILURE;
+	}
+
+	res =  f_write(&fp, data_out, BYTES, &bytes_write);
+	f_close(&fp);
+	printf("Bytes Write: %d\n", bytes_write);
+
+	if (umount_filesystem() == XST_FAILURE) {
+		return XST_FAILURE;
+	}
+
+	return XST_SUCCESS;
+}
+

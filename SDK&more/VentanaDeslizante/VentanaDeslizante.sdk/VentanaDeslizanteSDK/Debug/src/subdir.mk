@@ -7,14 +7,17 @@ LD_SRCS += \
 ../src/lscript.ld 
 
 C_SRCS += \
+../src/lib_ximg_filter_hw.c \
 ../src/main.c \
 ../src/platform.c 
 
 OBJS += \
+./src/lib_ximg_filter_hw.o \
 ./src/main.o \
 ./src/platform.o 
 
 C_DEPS += \
+./src/lib_ximg_filter_hw.d \
 ./src/main.d \
 ./src/platform.d 
 
