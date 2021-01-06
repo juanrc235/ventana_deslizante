@@ -6120,3 +6120,1717 @@ make: Nothing to be done for 'all'.
 13:52:05 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
 make all 
 make: Nothing to be done for 'all'.
+17:06:44 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:79:37: warning: variable 'calibration' set but not used [-Wunused-but-set-variable]
+  unsigned int init_time, curr_time, calibration;
+                                     ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122732	   7952	1869472	2000156	 1e851c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:07:00 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:79:37: warning: variable 'calibration' set but not used [-Wunused-but-set-variable]
+  unsigned int init_time, curr_time, calibration;
+                                     ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122732	   7952	1869472	2000156	 1e851c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:07:09 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:79:37: warning: variable 'calibration' set but not used [-Wunused-but-set-variable]
+  unsigned int init_time, curr_time, calibration;
+                                     ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122732	   7952	1869472	2000156	 1e851c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:07:33 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:101:2: error: 'init_time' undeclared (first use in this function); did you mean 'init_dma'?
+  init_time = XTmrCtr_GetValue(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+  ^~~~~~~~~
+  init_dma
+../src/main.c:101:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:102:2: error: 'curr_time' undeclared (first use in this function); did you mean 'init_time'?
+  curr_time = XTmrCtr_GetValue(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+  ^~~~~~~~~
+  init_time
+../src/main.c:103:2: error: 'calibration' undeclared (first use in this function)
+  calibration = curr_time - init_time;
+  ^~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:07:46 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122668	   7952	1869472	2000092	 1e84dc	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:08:53 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c:113:5: error: conflicting types for 'Run_HW_Accelerator'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], XAxiDma AxiDma, int dma_size) {
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/lib_ximg_filter_hw.c:13:0:
+../src/lib_ximg_filter_hw.h:13:5: note: previous declaration of 'Run_HW_Accelerator' was here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:117:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:127:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+make: *** [src/subdir.mk:29: src/lib_ximg_filter_hw.o] Error 1
+17:08:55 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:117:39: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                       ^~~~~~
+                                       XAxiDma
+../src/lib_ximg_filter_hw.c:117:39: note: each undeclared identifier is reported only once for each function it appears in
+../src/lib_ximg_filter_hw.c:117:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:127:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+make: *** [src/subdir.mk:29: src/lib_ximg_filter_hw.o] Error 1
+17:09:39 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:117:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:127:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:09:41 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:126:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:16:28 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:125:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:17:21 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:125:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:18:15 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:18:48 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:126:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:20:05 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:126:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:20:08 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:126:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:28:28 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:124:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^~~~~
+../src/lib_ximg_filter_hw.c:127:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:28:47 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:29:02 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:109:48: error: incompatible type for argument 3 of 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+                                                ^~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'int' but argument is of type 'XAxiDma {aka struct XAxiDma}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:109:11: error: too many arguments to function 'Run_HW_Accelerator'
+  status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: declared here
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:29:09 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122592	   7952	1869472	2000016	 1e8490	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:29:40 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:30:00 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:30:38 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122528	   7952	1869472	1999952	 1e8450	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:31:05 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:31:27 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:32:46 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122528	   7952	1869472	1999952	 1e8450	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:33:32 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:33:50 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:09 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:27 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:44 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:36:55 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:11 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:00 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122528	   7952	1869472	1999952	 1e8450	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:38:22 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:40 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:50 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:43:54 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122528	   7952	1869472	1999952	 1e8450	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:44:32 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:45:12 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:47:25 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:47:48 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:52 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:23 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122528	   7952	1869472	1999952	 1e8450	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:49:44 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:47 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:50:09 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:50:48 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122592	   7952	1869472	2000016	 1e8490	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:50:52 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122592	   7952	1869472	2000016	 1e8490	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:50:57 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122592	   7952	1869472	2000016	 1e8490	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:51:16 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:51:34 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:52:45 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:53:01 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:53:56 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:54:57 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:55:26 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:56:09 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122592	   7952	1869472	2000016	 1e8490	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:56:27 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:57:12 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:59:02 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122592	   7952	1869472	2000016	 1e8490	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:59:08 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:128:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122528	   7952	1869472	1999952	 1e8450	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+17:59:30 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+17:59:48 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+18:02:15 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+18:03:29 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:127:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122604	   7952	1869472	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+18:03:31 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:126:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122604	   7952	1869472	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+18:03:44 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:126:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122604	   7952	1869472	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+18:03:51 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:116:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:126:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122604	   7952	1869472	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+18:03:56 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:125:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122604	   7952	1869472	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+18:06:09 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:125:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122604	   7952	1869472	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+18:06:13 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:125:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122604	   7952	1869472	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+18:06:41 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+18:06:59 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+18:08:34 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+18:08:43 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+18:09:08 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+18:09:54 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:115:47: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+                                               ^
+../src/lib_ximg_filter_hw.c:125:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122580	   7952	1869432	1999964	 1e845c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+10:39:16 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+../src/lib_ximg_filter_hw.c: In function 'Run_HW_Accelerator':
+../src/lib_ximg_filter_hw.c:125:43: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  status = XAxiDma_SimpleTransfer(&AxiDma, (u8) &img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+                                           ^
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122580	   7952	1869432	1999964	 1e845c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+10:39:25 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122580	   7952	1869432	1999964	 1e845c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:04:42 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:05:29 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122612	   7952	1869464	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:05:45 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:06:07 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:17:06 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:17:55 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:17 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122620	   7952	1869456	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:23:59 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122636	   7952	1869440	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:24:14 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122636	   7952	1869440	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:24:17 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122652	   7952	1869424	2000028	 1e849c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:25:25 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:25:47 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:27:10 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122668	   7952	1869472	2000092	 1e84dc	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:31:08 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122668	   7952	1869472	2000092	 1e84dc	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:31:39 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122732	   7952	1869472	2000156	 1e851c	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:32:19 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:32:54 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:42:32 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:110:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) data_in, dma_size);
+                       ^
+../src/main.c:111:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((unsigned int) data_out, dma_size);
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122788	   7952	1869472	2000212	 1e8554	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:42:46 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122724	   7952	1869472	2000148	 1e8514	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:43:26 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:43:44 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:46:09 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122724	   7952	1869472	2000148	 1e8514	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+11:46:34 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:46:53 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:04 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+11:53:08 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:04:26 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122724	   7952	1869472	2000148	 1e8514	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:04:28 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122724	   7952	1869472	2000148	 1e8514	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:04:36 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122724	   7952	1869472	2000148	 1e8514	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:04:45 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122724	   7952	1869472	2000148	 1e8514	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:09:39 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122692	   7952	1869440	2000084	 1e84d4	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:10:17 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:09 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122716	   7952	1869480	2000148	 1e8514	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:11:46 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:12:04 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:17:01 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122628	   7952	1869440	2000020	 1e8494	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:17:30 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:17:48 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:15 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:33 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:03 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:21:19 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122628	   7952	1869440	2000020	 1e8494	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:21:22 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122628	   7952	1869440	2000020	 1e8494	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+12:21:59 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:22:21 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:33:56 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:34:16 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:34:20 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:34:31 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:41:21 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+12:41:38 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:45 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:113:30: warning: passing argument 1 of 'Run_HW_Accelerator' makes pointer from integer without a cast [-Wint-conversion]
+  status = Run_HW_Accelerator(data_in[56], data_out[56], dma_size);
+                              ^~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u8 {aka unsigned char}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+../src/main.c:113:43: warning: passing argument 2 of 'Run_HW_Accelerator' makes pointer from integer without a cast [-Wint-conversion]
+  status = Run_HW_Accelerator(data_in[56], data_out[56], dma_size);
+                                           ^~~~~~~~
+In file included from ../src/main.c:58:0:
+../src/lib_ximg_filter_hw.h:13:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u8 {aka unsigned char}'
+ int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
+     ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122692	   7952	1869440	2000084	 1e84d4	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+13:26:59 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122628	   7952	1869440	2000020	 1e8494	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+13:29:35 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122692	   7952	1869440	2000084	 1e84d4	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
+13:30:07 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+13:30:26 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+13:30:44 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+make: Nothing to be done for 'all'.
+13:34:39 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:113:39: error: 'BMP_HEADER' undeclared (first use in this function)
+  status = Run_HW_Accelerator(&data_in[BMP_HEADER], &data_out[BMP_HEADER], dma_size);
+                                       ^~~~~~~~~~
+../src/main.c:113:39: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'write_img':
+../src/main.c:222:28: error: 'BMP_HEADER' undeclared (first use in this function)
+  memcpy(data_out, data_in, BMP_HEADER);
+                            ^~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+13:34:59 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122692	   7952	1869440	2000084	 1e84d4	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '

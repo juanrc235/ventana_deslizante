@@ -12,6 +12,7 @@
 #include "ximg_filter_hw.h"
 #include "lib_ximg_filter_hw.h"
 #include "xil_printf.h"
+#include "unistd.h"
 
 volatile static int ResultExample = 0;
 
@@ -22,9 +23,8 @@ XImg_filter_hw_Config ximg_filter_config = { 0, XPAR_IMG_FILTER_HW_0_S_AXI_AXILI
 //Interrupt Controller Instance
 XScuGic ScuGic;
 
-// AXI DMA Instance
-// extern XAxiDma AxiDma;
-
+extern XAxiDma AxiDma;
+int f = 0;
 
 int XMmultSetup(){
 	return XImg_filter_hw_CfgInitialize(&ximg_filter_dev, &ximg_filter_config);
@@ -32,8 +32,8 @@ int XMmultSetup(){
 
 void XImgFilterStart (void *InstancePtr){
 	XImg_filter_hw *pExample = (XImg_filter_hw *)InstancePtr;
-	//XImg_filter_hw_InterruptEnable(pExample, 1);
-	//XImg_filter_hw_InterruptGlobalEnable(pExample);
+	XImg_filter_hw_InterruptEnable(pExample, 1);
+	XImg_filter_hw_InterruptGlobalEnable(pExample);
 	XImg_filter_hw_Start(pExample);
 }
 
@@ -110,30 +110,39 @@ int Start_HW_Accelerator(void) {
 	return 0;
 }
 
-int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], XAxiDma AxiDma, int dma_size) {
-
+int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size) {
 
 	//transfer the img to the block
-	int status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
+	int status = XAxiDma_SimpleTransfer(&AxiDma, (UINTPTR) img_in, dma_size, XAXIDMA_DMA_TO_DEVICE);
 	if (status != XST_SUCCESS) {
 		print("Error: DMA transfer to Vivado HLS block failed\n");
 		return XST_FAILURE;
 	}
-	print("1\n");
-	/* Wait for transfer to be done. Otherwise you'll get an error */
-	while (XAxiDma_Busy(&AxiDma, XAXIDMA_DMA_TO_DEVICE)) ;
+
+
+	/* Wait for transfer to be done. Otherwise you'll get an error
+	while ( XAxiDma_Busy(&AxiDma, XAXIDMA_DMA_TO_DEVICE) ) {
+		print("Waiting DMA --> DEVICE\n");
+	} */
 
 	//get the results from the block
-	status = XAxiDma_SimpleTransfer(&AxiDma, (u8) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
+	status = XAxiDma_SimpleTransfer(&AxiDma, (UINTPTR) img_out, dma_size, XAXIDMA_DEVICE_TO_DMA);
 	if (status != XST_SUCCESS) {
 		print("Error: DMA transfer from Vivado HLS block failed\n");
 		return XST_FAILURE;
 	}
-	print("2\n");
-	while (!ResultExample);
+
+	// while (!ResultExample) { print("Waiting block INT\n"); }
 	ResultExample = 0;
-	print("3\n");
-	while ((XAxiDma_Busy(&AxiDma, XAXIDMA_DEVICE_TO_DMA)));
+
+	/**
+	while ( XAxiDma_Busy(&AxiDma, XAXIDMA_DEVICE_TO_DMA) ) {
+		print("Waiting DEVICE --> DMA\n");
+	} **/
+
+	while ( XAxiDma_Busy(&AxiDma,XAXIDMA_DEVICE_TO_DMA ) || XAxiDma_Busy(&AxiDma,XAXIDMA_DMA_TO_DEVICE )) {
+		print("Waiting DMA\n");
+	}
 
 	/* Accelerator must me restarted */
 	XImgFilterStart(&ximg_filter_dev);

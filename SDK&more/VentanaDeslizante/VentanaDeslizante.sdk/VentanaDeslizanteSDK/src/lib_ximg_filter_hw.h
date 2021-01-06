@@ -9,8 +9,9 @@
 #define SRC_LIB_XIMG_FILTER_HW_H_
 
 #define BYTES 921654
+#define BMP_HEADER 56
 
-int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], XAxiDma AxiDma, int dma_size);
+int Run_HW_Accelerator(u8 img_in[BYTES], u8 img_out[BYTES], int dma_size);
 int Start_HW_Accelerator(void);
 
 

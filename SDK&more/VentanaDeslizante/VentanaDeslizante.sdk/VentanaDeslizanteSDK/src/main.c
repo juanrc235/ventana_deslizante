@@ -70,13 +70,12 @@ XAxiDma AxiDma;
 
 static FATFS fat_fs;
 u8 data_in[BYTES];
-u8 data_out[BYTES];
+u8 data_out[BYTES] = {0};
 
 int main() {
     init_platform();
     int status;
 	unsigned int dma_size = BYTES * sizeof(u8);
-	unsigned int init_time, curr_time, calibration;
 
 	print("\n --------- INIT ---------------\n");
 
@@ -98,16 +97,20 @@ int main() {
 	print("AXI TIMER Init done\n");
 
 	// Calibrate HW timer
-	XTmrCtr_Reset(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
-	init_time = XTmrCtr_GetValue(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
-	curr_time = XTmrCtr_GetValue(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
-	calibration = curr_time - init_time;
+	// XTmrCtr_Reset(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+	// init_time = XTmrCtr_GetValue(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+	// curr_time = XTmrCtr_GetValue(&timer_dev, XPAR_AXI_TIMER_0_DEVICE_ID);
+	// calibration = curr_time - init_time;
 
 	read_img();
 
 	status = Start_HW_Accelerator();
+	xil_printf("Start_HW_Accelerator status: %d \n", status);
 
-	status = Run_HW_Accelerator(data_in, data_out,AxiDma, dma_size);
+	Xil_DCacheFlushRange((UINTPTR) data_in, dma_size);
+	Xil_DCacheFlushRange((UINTPTR) data_out, dma_size);
+
+	status = Run_HW_Accelerator(&data_in[BMP_HEADER], &data_out[BMP_HEADER], dma_size);
 	xil_printf("Run_HW_Accelerator status: %d \n", status);
 
 	write_img();
@@ -129,8 +132,7 @@ int init_dma(){
 		return XST_FAILURE;
 	}
 
-
-	status = XAxiDma_CfgInitialize(&AxiDma,CfgPtr);
+	status = XAxiDma_CfgInitialize(&AxiDma, CfgPtr);
 
 	if(status != XST_SUCCESS){
 		print("Error initializing DMA\n\r");
@@ -150,7 +152,7 @@ int init_dma(){
 	// Reset DMA
 	XAxiDma_Reset(&AxiDma);
 
-	while (!XAxiDma_ResetIsDone(&AxiDma));
+	while ( !XAxiDma_ResetIsDone(&AxiDma) );
 
 	return XST_SUCCESS;
 }
@@ -210,12 +212,14 @@ u32 write_img () {
 	FIL fp;
 	u32 bytes_write = 0;
 
-	FRESULT res = f_open(&fp, "carsobel1.bmp", FA_WRITE | FA_CREATE_ALWAYS);
+	FRESULT res = f_open(&fp, "sobel.bmp", FA_WRITE | FA_CREATE_ALWAYS);
 
 	if (res != FR_OK) {
 		xil_printf("[WRITE] could not open the file %d\n\r", res);
 		return XST_FAILURE;
 	}
+
+	memcpy(data_out, data_in, BMP_HEADER);
 
 	res =  f_write(&fp, data_out, BYTES, &bytes_write);
 	f_close(&fp);

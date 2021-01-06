@@ -9,6 +9,7 @@
 <includePath path="#undef __ARM_FEATURE_FP16_SCALAR_ARITHMETIC" removed="true"/>
 <includePath path="#undef __ARM_FEATURE_FP16_VECTOR_ARITHMETIC" removed="true"/>
 <includePath path="d:\xilinx\sdk\2018.3\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/7.3.1/include"/>
+<includePath path="#undef __ARM_FP_FAST" removed="true"/>
 <includePath path="#undef __FLT_EVAL_METHOD__" removed="true"/>
 <includePath path="d:\xilinx\sdk\2018.3\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/7.3.1/include-fixed"/>
 <includePath path="#undef __AARCH64_CMODEL_TINY__" removed="true"/>
@@ -17,6 +18,7 @@
 <includePath path="#undef __AARCH64_CMODEL_SMALL__" removed="true"/>
 <includePath path="#undef __ARM_FEATURE_CRC32" removed="true"/>
 <includePath path="d:\xilinx\sdk\2018.3\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include"/>
+<includePath path="#undef __AARCH64EB__" removed="true"/>
 <includePath path="#undef __AARCH64_CMODEL_LARGE__" removed="true"/>
 <includePath path="#undef __ARM_FEATURE_DOTPROD" removed="true"/>
 <definedSymbol symbol="__STDC__=1"/>

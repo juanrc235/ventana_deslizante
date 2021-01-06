@@ -1,6 +1,26 @@
-13:52:05 **** Incremental Build of configuration Debug for project VentanaDeslizanteSDK ****
+13:34:59 **** Auto Build of configuration Debug for project VentanaDeslizanteSDK ****
 make all 
-make: Nothing to be done for 'all'.
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: VentanaDeslizanteSDK.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "VentanaDeslizanteSDK.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDK.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDK.elf  |tee "VentanaDeslizanteSDK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122692	   7952	1869440	2000084	 1e84d4	VentanaDeslizanteSDK.elf
+'Finished building: VentanaDeslizanteSDK.elf.size'
+' '
 
-13:52:05 Build Finished (took 186ms)
+13:35:00 Build Finished (took 917ms)
 
