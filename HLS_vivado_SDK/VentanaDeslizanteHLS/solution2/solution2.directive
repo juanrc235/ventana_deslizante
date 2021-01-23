@@ -1,0 +1,22 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="img_filter_hw" label="" functionLabel="">
+            <pragma name="STREAM">
+                <option name="variable" value="buff1" positionalBoolean="4"/>
+                <option name="depth" value="640"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="img_filter_hw" label="" functionLabel="">
+            <pragma name="STREAM">
+                <option name="variable" value="buff2" positionalBoolean="4"/>
+                <option name="depth" value="640"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="img_filter_hw" label="L2" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

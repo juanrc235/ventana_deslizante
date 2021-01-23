@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="estra" Host="DESKTOP-0CU75TV" Pid="2276">
+    </Process>
+</ProcessHandle>

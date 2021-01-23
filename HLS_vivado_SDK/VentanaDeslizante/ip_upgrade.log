@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jan 23 17:46:35 2021
+| Host         : DESKTOP-0CU75TV running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_img_filter_hw_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_img_filter_hw_0_1 (xilinx.com:hls:img_filter_hw:1.0) from (Rev. 2012281116) to (Rev. 2101231744)
+

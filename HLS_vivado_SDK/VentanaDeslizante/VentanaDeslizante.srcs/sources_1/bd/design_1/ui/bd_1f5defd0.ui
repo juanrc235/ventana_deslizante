@@ -1,0 +1,36 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace inst img_filter_hw_0 -pg 1 -lvl 3 -y 530 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -y 190 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 5 -y 540 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 6 -y 420 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 3 -y 300 -defaultsOSRD
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 2 -y 520 -defaultsOSRD
+preplace inst axis_dwidth_converter_1 -pg 1 -lvl 4 -y 510 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 1 -y 530 -defaultsOSRD
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 2 1 N
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 6 20 180 660 380 990 630 1320 600 1570 420 1930
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 650
+preplace netloc ps8_0_axi_periph_M02_AXI 1 2 1 980
+preplace netloc axi_smc_M00_AXI 1 0 7 30 420 NJ 420 NJ 420 1300J 330 NJ 330 NJ 330 2230
+preplace netloc img_filter_hw_0_interrupt 1 0 4 50 430 NJ 430 NJ 430 1300
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 1 5 670 440 1000 620 1330 590 1560J 400 1940
+preplace netloc ps8_0_axi_periph_M01_AXI 1 2 3 NJ 190 NJ 190 1550
+preplace netloc axi_dma_0_M_AXI_MM2S 1 5 1 1920
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 1 1000
+preplace netloc axi_dma_0_M_AXI_S2MM 1 5 1 1950
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 40 190 650
+preplace netloc axis_dwidth_converter_1_M_AXIS 1 4 1 N
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 1 5 680 410 NJ 410 NJ 410 NJ 410 1910
+preplace netloc img_filter_hw_0_out_r 1 3 1 1310
+levelinfo -pg 1 0 350 830 1150 1440 1740 2090 2250 -top 0 -bot 660
+"
+}
+{
+   "da_axi4_cnt":"7",
+   "da_clkrst_cnt":"3",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

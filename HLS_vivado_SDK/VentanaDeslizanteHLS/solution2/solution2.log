@@ -1,0 +1,866 @@
+==============================================================
+File generated on Sat Jan 23 10:23:37 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 10:24:14 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 23 10:32:54 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 10:33:07 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.023 ; gain = 18.742
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.023 ; gain = 18.742
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 152.297 ; gain = 67.016
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 187.922 ; gain = 102.641
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 246.855 ; gain = 161.574
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 261.152 ; gain = 175.871
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L3'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 16.498 seconds; current allocated memory: 201.567 MB.
+INFO: [HLS 200-434] Only 1 loops out of a total 3 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.164 seconds; current allocated memory: 202.084 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 0.249 seconds; current allocated memory: 203.656 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 261.152 ; gain = 175.871
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 18.712 seconds; peak allocated memory: 203.656 MB.
+==============================================================
+File generated on Sat Jan 23 10:35:27 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 10:35:36 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.254 ; gain = 19.410
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.254 ; gain = 19.410
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 152.363 ; gain = 67.520
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 188.238 ; gain = 103.395
+INFO: [HLS 200-489] Unrolling loop 'L3' (filtro_imagen/top.cpp:16) in function 'img_filter_hw' completely with a factor of 637.
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:49 ; elapsed = 00:01:02 . Memory (MB): peak = 431.383 ; gain = 346.539
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:52 ; elapsed = 00:02:06 . Memory (MB): peak = 507.523 ; gain = 422.680
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 130.727 seconds; current allocated memory: 440.316 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 2 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.33 seconds; current allocated memory: 444.727 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 2.481 seconds; current allocated memory: 463.169 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:02:02 ; elapsed = 00:02:19 . Memory (MB): peak = 564.406 ; gain = 479.562
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 139.234 seconds; peak allocated memory: 463.169 MB.
+==============================================================
+File generated on Sat Jan 23 10:41:37 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 10:41:46 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.238 ; gain = 19.617
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.238 ; gain = 19.617
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 152.297 ; gain = 67.676
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 188.902 ; gain = 104.281
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 246.129 ; gain = 161.508
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'L1' (filtro_imagen/top.cpp:25:38) in function 'img_filter_hw' : 
+
+the outer loop is not a perfect loop.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 260.176 ; gain = 175.555
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 16.568 seconds; current allocated memory: 201.555 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 3 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.126 seconds; current allocated memory: 202.049 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 0.241 seconds; current allocated memory: 203.551 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 260.176 ; gain = 175.555
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 18.525 seconds; peak allocated memory: 203.551 MB.
+==============================================================
+File generated on Sat Jan 23 10:46:38 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 10:48:19 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 10:49:28 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 10:49:58 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.145 ; gain = 19.348
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.145 ; gain = 19.348
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 151.953 ; gain = 67.156
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 187.598 ; gain = 102.801
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 246.840 ; gain = 162.043
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 260.609 ; gain = 175.812
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 16.032 seconds; current allocated memory: 201.224 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 3 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.118 seconds; current allocated memory: 201.713 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 0.231 seconds; current allocated memory: 203.187 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 260.609 ; gain = 175.812
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 17.949 seconds; peak allocated memory: 203.187 MB.
+==============================================================
+File generated on Sat Jan 23 10:59:32 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 23 11:04:52 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 11:05:08 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.156 ; gain = 19.645
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.156 ; gain = 19.645
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 152.543 ; gain = 68.031
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 187.801 ; gain = 103.289
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 245.820 ; gain = 161.309
+INFO: [XFORM 203-541] Flattening a loop nest 'L1' (filtro_imagen/top.cpp:24:38) in function 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 259.328 ; gain = 174.816
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L1_L2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 16.179 seconds; current allocated memory: 201.291 MB.
+INFO: [HLS 200-434] Only 1 loops out of a total 2 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.136 seconds; current allocated memory: 201.821 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 0.243 seconds; current allocated memory: 203.403 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 260.363 ; gain = 175.852
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 18.228 seconds; peak allocated memory: 203.403 MB.
+==============================================================
+File generated on Sat Jan 23 11:36:29 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Sat Jan 23 11:36:39 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.117 ; gain = 19.418
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.117 ; gain = 19.418
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 152.527 ; gain = 67.828
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 187.301 ; gain = 102.602
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 245.406 ; gain = 160.707
+INFO: [XFORM 203-541] Flattening a loop nest 'L1' (filtro_imagen/top.cpp:24:38) in function 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 259.719 ; gain = 175.020
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L3'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-61] Pipelining loop 'L1_L2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 16.576 seconds; current allocated memory: 201.317 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.138 seconds; current allocated memory: 201.744 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 0.252 seconds; current allocated memory: 203.400 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 259.719 ; gain = 175.020
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 18.63 seconds; peak allocated memory: 203.400 MB.
+==============================================================
+File generated on Sat Jan 23 11:44:48 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.055 ; gain = 19.316
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 104.055 ; gain = 19.316
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 152.363 ; gain = 67.625
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 187.699 ; gain = 102.961
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 245.449 ; gain = 160.711
+INFO: [XFORM 203-541] Flattening a loop nest 'L1' (filtro_imagen/top.cpp:24:38) in function 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 259.781 ; gain = 175.043
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L1_L2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 16.578 seconds; current allocated memory: 201.292 MB.
+INFO: [HLS 200-434] Only 1 loops out of a total 2 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.138 seconds; current allocated memory: 201.821 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 0.243 seconds; current allocated memory: 203.404 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 259.852 ; gain = 175.113
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 18.564 seconds; peak allocated memory: 203.404 MB.
+==============================================================
+File generated on Sat Jan 23 17:34:52 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:23 . Memory (MB): peak = 104.133 ; gain = 19.023
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:23 . Memory (MB): peak = 104.133 ; gain = 19.023
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:24 . Memory (MB): peak = 152.641 ; gain = 67.531
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:24 . Memory (MB): peak = 187.934 ; gain = 102.824
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 246.742 ; gain = 161.633
+INFO: [XFORM 203-541] Flattening a loop nest 'L1' (filtro_imagen/top.cpp:24:38) in function 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 260.812 ; gain = 175.703
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L1_L2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 25.747 seconds; current allocated memory: 201.308 MB.
+INFO: [HLS 200-434] Only 1 loops out of a total 2 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.157 seconds; current allocated memory: 201.821 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 0.268 seconds; current allocated memory: 203.419 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:28 . Memory (MB): peak = 260.812 ; gain = 175.703
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 27.989 seconds; peak allocated memory: 203.419 MB.
+==============================================================
+File generated on Sat Jan 23 17:38:42 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 103.918 ; gain = 19.117
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 103.918 ; gain = 19.117
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 152.121 ; gain = 67.320
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 187.703 ; gain = 102.902
+INFO: [HLS 200-489] Unrolling loop 'L3' (filtro_imagen/top.cpp:16) in function 'img_filter_hw' completely with a factor of 637.
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:49 ; elapsed = 00:01:02 . Memory (MB): peak = 430.215 ; gain = 345.414
+INFO: [XFORM 203-541] Flattening a loop nest 'L1' (filtro_imagen/top.cpp:24:38) in function 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:51 ; elapsed = 00:02:05 . Memory (MB): peak = 506.527 ; gain = 421.727
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L1_L2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 133.034 seconds; current allocated memory: 439.982 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 9.061 seconds; current allocated memory: 445.196 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 3.436 seconds; current allocated memory: 463.702 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:02:15 ; elapsed = 00:02:32 . Memory (MB): peak = 565.039 ; gain = 480.238
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 152.146 seconds; peak allocated memory: 463.702 MB.
+==============================================================
+File generated on Sat Jan 23 17:42:35 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-10] Analyzing design file 'filtro_imagen/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 103.855 ; gain = 19.445
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 103.855 ; gain = 19.445
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'push_stream' into 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 152.301 ; gain = 67.891
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 187.938 ; gain = 103.527
+INFO: [XFORM 203-102] Partitioning array 'swin.V' (filtro_imagen/top.cpp:12) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.0' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.1' (filtro_imagen/top.cpp:12) automatically.
+INFO: [XFORM 203-102] Partitioning array 'swin.V.2' (filtro_imagen/top.cpp:12) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 246.492 ; gain = 162.082
+INFO: [XFORM 203-541] Flattening a loop nest 'L1' (filtro_imagen/top.cpp:24:38) in function 'img_filter_hw'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 260.840 ; gain = 176.430
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'img_filter_hw' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L1_L2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 16.038 seconds; current allocated memory: 201.275 MB.
+INFO: [HLS 200-434] Only 1 loops out of a total 2 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.14 seconds; current allocated memory: 201.805 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'img_filter_hw' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'img_filter_hw/out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'img_filter_hw' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'img_filter_hw_am_addmul_9ns_8ns_12ns_22_1_1' to 'img_filter_hw_am_bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'img_filter_hw_am_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'img_filter_hw'.
+INFO: [HLS 200-111]  Elapsed time: 0.257 seconds; current allocated memory: 203.387 MB.
+INFO: [RTMG 210-285] Implementing FIFO 'buff1_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'buff2_V_V_U(fifo_w8_d640_A)' using Block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 260.840 ; gain = 176.430
+INFO: [SYSC 207-301] Generating SystemC RTL for img_filter_hw.
+INFO: [VHDL 208-304] Generating VHDL RTL for img_filter_hw.
+INFO: [VLOG 209-307] Generating Verilog RTL for img_filter_hw.
+INFO: [HLS 200-112] Total elapsed time: 18.098 seconds; peak allocated memory: 203.387 MB.
+==============================================================
+File generated on Sat Jan 23 17:44:15 +0100 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.

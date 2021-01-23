@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx." projectName="VentanaDeslizanteHLS" solutionName="solution2" date="2021-01-23T17:42:35.592+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Skipped source file 'car.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx." projectName="VentanaDeslizanteHLS" solutionName="solution1" date="2020-12-28T11:15:56.576+0100" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_uint&lt;8> >.1' contains leftover data, which may result in RTL simulation hanging.&#xD;&#xA;Test failed! total pixel errors: 287638&#xD;" projectName="VentanaDeslizanteHLS" solutionName="solution1" date="2021-01-18T21:25:57.000+0100" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_uint&lt;8> >.2' contains leftover data, which may result in RTL simulation hanging." projectName="VentanaDeslizanteHLS" solutionName="solution1" date="2021-01-18T21:25:55.079+0100" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

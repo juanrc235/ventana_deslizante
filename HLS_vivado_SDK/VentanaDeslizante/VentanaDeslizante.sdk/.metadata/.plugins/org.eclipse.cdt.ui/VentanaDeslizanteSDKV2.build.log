@@ -1,0 +1,31 @@
+18:17:04 **** Auto Build of configuration Debug for project VentanaDeslizanteSDKV2 ****
+make all 
+'Building file: ../src/lib_ximg_filter_hw.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_ximg_filter_hw.o" -I../../standalone_bsp_1/psu_cortexa53_0/include -MMD -MP -MF"src/lib_ximg_filter_hw.d" -MT"src/lib_ximg_filter_hw.o" -o "src/lib_ximg_filter_hw.o" "../src/lib_ximg_filter_hw.c"
+'Finished building: ../src/lib_ximg_filter_hw.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../standalone_bsp_1/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_1/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: VentanaDeslizanteSDKV2.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_1/psu_cortexa53_0/lib -o "VentanaDeslizanteSDKV2.elf"  ./src/lib_ximg_filter_hw.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VentanaDeslizanteSDKV2.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size VentanaDeslizanteSDKV2.elf  |tee "VentanaDeslizanteSDKV2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122844	   7952	1869480	2000276	 1e8594	VentanaDeslizanteSDKV2.elf
+'Finished building: VentanaDeslizanteSDKV2.elf.size'
+' '
+
+18:17:05 Build Finished (took 1s.113ms)
+
